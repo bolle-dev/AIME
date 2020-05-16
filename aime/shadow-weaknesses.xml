@@ -4,7 +4,7 @@
 		<name>Shadow Weaknesses</name>
 		<description>Shadow Weaknesses</description>
 		<update version="0.0.1">
-		<file name="shadow-weaknesses.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/shadow-weaknesses.xml" />		
+		<file name="shadow-weaknesses.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/aime/shadow-weaknesses.xml" />		
 		</update>
 	</info>
 	<element name="Shadow Weakness, Lure of Secrets " type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SHADOW_WEAKNESS_LURE_OF_SECRETS">
