@@ -4,7 +4,7 @@
 		<name>Languages</name>
 		<description>Languages</description>
 		<update version="0.0.1">
-		<file name="languages.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/languages.xml" />		
+		<file name="languages.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/aime/languages.xml" />		
 		</update>
 	</info>
 	<element name="Dwarven" type="Language" source="Willem" id="ID_WILLEM_AIME_LANGUAGE_DWARVEN">
