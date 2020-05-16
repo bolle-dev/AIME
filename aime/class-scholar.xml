@@ -4,7 +4,7 @@
 		<name>Scholar</name>
 		<description>Scholar class</description>
 		<update version="0.0.1">
-			<file name="class-scholar.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/class-scholar.xml" />
+			<file name="class-scholar.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/aime/class-scholar.xml" />
 		</update>
 	</info>
 	<element name="Scholar" type="Class" source="Willem" id="ID_WILLEM_AIME_CLASS_SCHOLAR">
