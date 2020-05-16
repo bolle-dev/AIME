@@ -4,7 +4,7 @@
 		<name>Items</name>
 		<description>Items</description>
 		<update version="0.0.1">
-		<file name="items.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/items.xml" />		
+		<file name="items.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/aime/items.xml" />		
 		</update>
 	</info>
 	<element name="Miner's Tools" type="Item" source="Willem" id="ID_WOTC_PHB_ITEM_TOOL_MINERS_TOOLS">
