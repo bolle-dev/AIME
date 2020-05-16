@@ -4,7 +4,7 @@
 		<name>Great Among The Wise</name>
 		<description>Great Among The Wise</description>
 		<update version="0.0.1">
-		<file name="great among the wise.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/great%20among%20the%20wise.xml" />		
+		<file name="great among the wise.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/aime/great%20among%20the%20wise.xml" />		
 		</update>
 	</info>
 	<element name="Animal Handling" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_GREAT_AMONG_THE_WISE_ANIMAL_HANDLING">
