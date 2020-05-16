@@ -4,7 +4,7 @@
 		<name>Skills</name>
 		<description>Skills</description>
 		<update version="0.0.1">
-		<file name="skills.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/skills.xml" />		
+		<file name="skills.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/aime/skills.xml" />		
 		</update>
 	</info>
 	<element name="Shadow-lore proficiency" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SHADOW_LORE">
