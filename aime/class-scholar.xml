@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Scholar</name>
+		<description>Scholar class</description>
+		<update version="0.0.1">
+			<file name="class-scholar.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/class-scholar.xml" />
+		</update>
+	</info>
+	<element name="Scholar" type="Class" source="Willem" id="ID_WILLEM_AIME_CLASS_SCHOLAR">
+		<description>
+			<p> For you, knowledge makes the Wild a less threatening place. Strangers become friends if addressed properly, yellowed maps in old books replace a fear of the unknown with curiosity and wonder of places you have yet to explore, songs composed in ages past strengthen the weariest of hearts. A love of learning guides your every step and illuminates the way for you and those who listen to your advice. </p>
+			<p class="indent">A Scholar is always learned, always wise, but learning takes many forms. In civilised lands and civilised times, Scholars gather books of lore and pore over rustling parchments. In Wilderland, in rustic communities or in times of war and want, a Scholar might be a master of folk-lore and secrets passed from teacher to apprentice over long years.</p>
+			<p class="indent">Many Scholars are also healers, for a knowledge of herblore and the healing arts is perhaps the most useful (and, some would say, most respectable) field of study.</p>
+			<p class="indent">The most important thing to keep in mind when creating your Scholar is to think of where and how you gained your knowledge. Did you study under a master, learning as an apprentice? Is your Scholar a dabbler, flitting from one obsession to another, or do you learn all there is to know about one field of lore before moving on? Finally, why have you left your home to take on a dangerous life as an adventurer?</p>
+			<h4>Play a Scholar if you want to...</h4>
+			<p>Uncover ancient secrets and use their power against the Enemy.</p>
+			<p class="indent">Be admitted into the councils of the Wise, and know much that is hidden.</p>
+			<p class="indent">Master the art of healing and restore your injured friends to full health.</p>
+			<h3>CLASS FEATURES</h3>
+			<p>As a Scholar, you gain the following class features.</p>
+            <h5>HIT POINTS</h5>
+            <ul class="unstyled">
+                <li><strong>Hit Dice:</strong> 1d8 per Scholar level</li>
+                <li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+                <li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per Scholar level after 1st</li>
+            </ul>
+            <h5>PROFICIENCIES</h5>
+            <ul class="unstyled mb">
+                <li><strong>Armor:</strong> Light armor</li>
+                <li><strong>Weapons:</strong> all simple weapons</li>
+                <li><strong>Tools:</strong> Healing kit or herbalism kit, a choice of artisan's tools or a pipe</li>
+                <li><strong>Saving Throws:</strong> Intelligence, Wisdom</li>
+                <li><strong>Skills:</strong> Medicine, Lore plus choose one from History, Riddle, Traditions, Insight, Investigation, Nature, Perception and Survival.</li>
+            </ul>
+			<h5>EQUIPMENT</h5>
+			<p>You start with the following equipment, in addition to the equipment granted by your Standard of Living.</p>
+			<ul>
+				<li>A simple weapon</li>
+				<li>A leather jerkin</li>
+				<li>Prosperous or Rich Scholars also begin with ink and parchment.</li>
+			</ul>
+			<h5>SHADOW WEAKNESS</h5>
+			<p>Lure of Secrets</p>
+			<h5 class="caption">THE SCHOLAR </h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="col-10">Proficiency Bonus</td><td class="left">Features</td></tr>
+				</thead>
+				<tr><td> 1st</td><td>+2</td><td class="left">Hands of a Healer, News from Afar, Tongues of Many Peoples</td></tr>
+				<tr><td> 2nd</td><td>+2</td><td class="left">The Path of Wisdom</td></tr>
+				<tr><td> 3rd</td><td>+2</td><td class="left">Speciality</td></tr>
+				<tr><td> 4th</td><td>+2</td><td class="left">Character Improvement</td></tr>
+				<tr><td> 5th</td><td>+3</td><td class="left">Webs of Deceit</td></tr>
+				<tr><td> 6th</td><td>+3</td><td class="left">Shadow of the Past</td></tr>
+				<tr><td> 7th</td><td>+3</td><td class="left">Speciality Feature</td></tr>
+				<tr><td> 8th</td><td>+3</td><td class="left">Character Improvement</td></tr>
+				<tr><td> 9th</td><td>+4</td><td class="left">Physician</td></tr>
+				<tr><td>10th</td><td>+4</td><td class="left">Speciality Feature</td></tr>
+				<tr><td>11th</td><td>+4</td><td class="left">Hidden Paths</td></tr>
+				<tr><td>12th</td><td>+4</td><td class="left">Character Improvement</td></tr>
+				<tr><td>13th</td><td>+5</td><td class="left">Hope Unlooked-For</td></tr>
+				<tr><td>14th</td><td>+5</td><td class="left">Speciality</td></tr>
+				<tr><td>15th</td><td>+5</td><td class="left">Habits of the Wise</td></tr>
+				<tr><td>16th</td><td>+5</td><td class="left">Character Improvement</td></tr>
+				<tr><td>17th</td><td>+6</td><td class="left">Words unspoken</td></tr>
+				<tr><td>18th</td><td>+6</td><td class="left">Speciality Feature</td></tr>
+				<tr><td>19th</td><td>+6</td><td class="left">Character Improvement</td></tr>
+				<tr><td>20th</td><td>+6</td><td class="left">Great Among The Wise</td></tr>
+			</table>
+			<div element="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_HANDS_OF_A_HEALER" />
+			<div element="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_NEWS_FROM_AFAR" />
+			<div element="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_TONGUES_OF_MANY_PEOPLE" />
+			<div element="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_THE_PATH_OF_WISDOM" />
+			<div element="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_SPECIALITY" />
+			<div element="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_ABILITY_SCORE_IMPROVEMENT_SCHOLAR" />
+			<div element="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_WEBS_OF_DECEIT" />
+			<div element="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_SHADOW_OF_THE_PAST" />
+			<div element="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_PHYSICIAN" />
+			<div element="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_HIDDEN_PATHS" />
+			<div element="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_HOPE_UNLOOKED_FOR" />
+			<div element="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_HABITS_OF_THE_WISE" />
+			<div element="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_WORDS_UNSPOKEN" />
+			<div element="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_GREAT_AMONG_THE_WISE" />
+			<div element="ID_WILLEM_AIME_CLASS_FEATURE_SHADOW_WEAKNESS_LURE_OF_SECRETS" />
+		</description>
+		<sheet display="false">
+			<description>A spellcaster who draws on inherent magic from a gift or bloodline.</description>
+		</sheet>
+		<setters>
+			<set name="short">A spellcaster who draws on inherent magic from a gift or bloodline.</set>
+			<set name="hd">d6</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>	
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
+			<grant type="Proficiency" id="ID_EXPERTISE_SKILL_MEDICINE" level="2" />
+			<select type="Proficiency" name="Tool Proficiency (Scholar)" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_PIPE|ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_POTTERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_PAINTERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_JEWELERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_GLASSBLOWERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT|ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT|ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS|ID_PROFICIENCY_TOOL_PROFICIENCY_COBBLERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_CARTOGRAPHERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_BREWERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_MINERS_TOOLS" />
+			<select type="Proficiency" name="Healing Tool Proficiency (Scholar)" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT|ID_PROFICIENCY_TOOL_PROFICIENCY_HEALING_KIT" />
+			<select type="Proficiency" name="Skill Proficiency (Scholar)" supports="ID_WILLEM_AIME_PROFICIENCY_SKILL_RIDDLE|ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKIlL_RELIGION|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_SURVIVAL" number="1" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
+			<grant type="Class Feature" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_HANDS_OF_A_HEALER" level="1" />
+			<grant type="Class Feature" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_NEWS_FROM_AFAR" level="1"/>
+			<grant type="Class Feature" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_TONGUES_OF_MANY_PEOPLE" level="1" />
+			<grant type="Class Feature" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_THE_PATH_OF_WISDOM" level="2" />
+			<grant type="Class Feature" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_SPECIALITY" level="3" />
+			<grant type="Class Feature" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_ABILITY_SCORE_IMPROVEMENT_SCHOLAR" level="4" />
+			<grant type="Class Feature" id="ID_WILLEM_AIME_CLASS_FEATURE_SHADOW_LORE" level="1" />
+			<grant type="Class Feature" id="ID_WILLEM_AIME_CLASS_FEATURE_RIDDLE" level="1" />
+			<grant type="Class Feature" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_WEBS_OF_DECEIT" level="5" />
+			<grant type="Class Feature" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_SHADOW_OF_THE_PAST" level="6" />
+			<grant type="Class Feature" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_HIDDEN_PATHS" level="11" />
+			<grant type="Class Feature" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_HOPE_UNLOOKED_FOR" level="13" />
+			<grant type="Class Feature" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_HABITS_OF_THE_WISE" level="15" />
+			<grant type="Class Feature" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_WORDS_UNSPOKEN" level="17" />
+			<grant type="Class Feature" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_GREAT_AMONG_THE_WISE" level="20" />
+			<grant type="Class Feature" id="ID_WILLEM_AIME_CLASS_FEATURE_SHADOW_WEAKNESS_LURE_OF_SECRETS" />
+		</rules>
+		<multiclass id="ID_WOTC_PHB_MULTICLASS_SORCERER">
+			<prerequisite>Charisma 13</prerequisite>
+			<requirements>[cha:13]</requirements>
+			<setters>
+				<set name="multiclass proficiencies">—</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+			</rules>
+		</multiclass>
+	</element>
+	<element name="Hands of a Healer" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_HANDS_OF_A_HEALER">
+			<description level="1">
+				<p>You know how to treat wounds and illness and poison. You have a pool of healing tricks and techniques that replenishes when you take a short rest. You have one Healing Die (1d8) per level in the Scholar class.</p>
+				<p>If you can touch a creature, you may expend one Healing Die per action, instantly granting them hit points equal to 1d8 plus your wisdom modifier, up to their maximum. If instead you tend the creature for at least 10 minutes, binding their wounds, treating them with herbs and poultices, and offering soothing words, then you may multiply the 1d8 by your proficiency modifier. Then add your Wisdom modifier.</p>
+				<p>Alternatively, you can spend a Healing Die to cure one disease, neutralize one poison, or remove one condition affecting a single target. Conditions are removed instantly, but poisons and diseases require the creature to take a long rest before they are removed.</p>
+				<p>The types of conditions you can cure are limited when you first gain this feature. You can remove the Frightened, Paralysed, Stunned, or Unconscious conditions. At higher levels you can cure other conditions, described below.</p>
+			</description>
+			<description level="9"> 
+				<p>You know how to treat wounds and illness and poison. You have a pool of healing tricks and techniques that replenishes when you take a short rest. You have one Healing Die (1d8) per level in the Scholar class.</p>
+				<p>If you can touch a creature, you may expend one Healing Die per action, instantly granting them hit points equal to 1d8 plus your wisdom modifier, up to their maximum. If instead you tend the creature for at least 10 minutes, binding their wounds, treating them with herbs and poultices, and offering soothing words, then you may multiply the 1d8 by your proficiency modifier. Then add your Wisdom modifier.</p>						<p>Alternatively, you can spend a Healing Die to cure one disease, neutralize one poison, or remove one condition affecting a single target. Conditions are removed instantly, but poisons and diseases require the creature to take a long rest before they are removed.</p>
+				<p>Alternatively, you can spend a Healing Die to cure one disease, neutralize one poison, or remove one condition affecting a single target. Conditions are removed instantly, but poisons and diseases require the creature to take a long rest before they are removed.</p>
+				<p>You can remove the Frightened, Paralysed, Stunned, Unconscious conditions, Blinded, Charmed, Deafened, Petrified or one level of exhaustion </p>
+			</description>
+	</element>	
+	<element name="News from Afar" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_NEWS_FROM_AFAR">
+		<description>
+			<p>You know many things that are hidden from most and tidings of distant events tend to reach you with astonishing speed. The source of your knowledge is obscure and you do not explain how you know the things you do to others – it is enough that what you know is true.</p>
+			<p>At the start of each adventuring phase or after spending time in a Sanctuary, the Loremaster should inform you of one or two events of importance occurring somewhere in Wilderland.</p>
+			<p>Scholars always know a little bit about everything and the Loremaster should regularly give you rumours or information based on your appropriate Passive ability checks. For more clarity you can always make an active ability check to learn more about a person, place, or event. Once per Adventuring Phase you can add +5 to one of these active ability checks.</p>
+		</description>		
+	</element>
+	<element name="Tongues of Many Peoples" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_TONGUES_OF_MANY_PEOPLE">
+		<description>
+		<p>You know a little of many languages. You can hold a simple conversation in any of the tongues of Men or Elves, and know a few common phrases in the tongues of the other peoples – enough to offer a greeting, shout a warning, or insult someone</p>
+		</description>
+	</element>
+	<element name="The Path of Wisdom" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_THE_PATH_OF_WISDOM">
+		<description>
+		<p>At 2nd level choose either Medicine and one skill proficiency, or Medicine and proficiency with a herbalism kit. Your proficiency bonus is doubled for any ability checks that use either of your choices.</p>
+		<p>Whenever you gain a new skill proficiency, you may move your doubled proficiency bonus to the new skill, to reflect your change of focus.</p>
+		</description>
+		<rules>
+			<select type="Class Feature" name="The Path of Wisdom" supports="The Path of Wisdom" level="2"/>
+		</rules>
+	</element>
+	<element name="Herbalism Kit Expertise" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_THE_PATH_OF_WISDOM_HERBALISM_KIT">
+		<supports>The Path of Wisdom</supports>
+		<description>
+			<p>You gain expertise in using the herbalism kit.</p>
+			<p class="indent">Your proficiency bonus is doubled for any ability check you make with a herbalism kit.</p>
+			<div element="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT" />
+		</description>
+		<sheet>
+		<description>Your proficiency bonus is doubled for any ability check you make with a herbalism kit.</description>
+		</sheet>
+		<requirements>ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT</requirements>
+	</element>
+	<element name="Shadow-lore Expertise" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_THE_PATH_OF_WISDOM_SHADOW_LORE">
+		<supports>The Path of Wisdom</supports>
+		<description>
+			<p>You gain expertise in Shadow-lore.</p>
+			<p class="indent">Your proficiency bonus is doubled for any ability check you make that uses Shadow-lore</p>
+			<div element="ID_WILLEM_AIME_PROFICIENCY_SKILL_SHADOW_LORE" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="ShadowTemp" value="proficiency" bonus="double" requirements="ID_WILLEM_AIME_PROFICIENCY_SKILL_SHADOW_LORE" />
+		</rules>
+		<requirements>ID_WILLEM_AIME_PROFICIENCY_SKILL_SHADOW_LORE</requirements>
+	</element>
+	<element name="Riddle Expertise" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_THE_PATH_OF_WISDOM_RIDDLE">
+		<supports>The Path of Wisdom</supports>
+		<description>
+			<p>You gain expertise in Riddle.</p>
+			<p class="indent">Your proficiency bonus is doubled for any ability check you make that uses Riddle.</p>
+			<div element="ID_WILLEM_AIME_PROFICIENCY_SKILL_RIDDLE" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="RiddleTemp" value="proficiency" bonus="double" requirements="ID_WILLEM_AIME_PROFICIENCY_SKILL_RIDDLE"/>
+		</rules>
+		<requirements>ID_WILLEM_AIME_PROFICIENCY_SKILL_RIDDLE</requirements>
+	</element>
+	<element name="Acrobatics Expertise" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_THE_PATH_OF_WISDOM_ACROBATICS">
+		<supports>The Path of Wisdom</supports>
+		<description>
+			<p>You gain expertise in Acrobatics.</p>
+			<p class="indent">Your proficiency bonus is doubled for any ability check you make that uses Acrobatics.</p>
+			<div element="ID_PROFICIENCY_SKILL_ACROBATICS" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="proficiency" id="ID_EXPERTISE_SKILL_ACROBATICS" />
+		</rules>
+		<requirements>ID_PROFICIENCY_SKILL_ACROBATICS</requirements>		
+	</element>
+	<element name="Animalhandling Expertise" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_THE_PATH_OF_WISDOM_ANIMALHANDLING">
+		<supports>The Path of Wisdom</supports>
+		<description>
+			<p>You gain expertise in Animalhandling.</p>
+			<p class="indent">Your proficiency bonus is doubled for any ability check you make that uses Animalhandling.</p>
+			<div element="ID_PROFICIENCY_SKILL_ANIMALHANDLING" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="proficiency" id="ID_EXPERTISE_SKILL_ANIMALHANDLING" />
+		</rules>
+		<requirements>ID_PROFICIENCY_SKILL_ANIMALHANDLING</requirements>		
+	</element>
+	<element name="Arcana Expertise" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_THE_PATH_OF_WISDOM_ARCANA">
+		<supports>The Path of Wisdom</supports>
+		<description>
+			<p>You gain expertise in Arcana.</p>
+			<p class="indent">Your proficiency bonus is doubled for any ability check you make that uses Arcana.</p>
+			<div element="ID_PROFICIENCY_SKILL_ARCANA" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="proficiency" id="ID_EXPERTISE_SKILL_ARCANA" />
+		</rules>
+		<requirements>ID_PROFICIENCY_SKILL_ARCANA</requirements>
+	</element>
+	<element name="Athletics Expertise" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_THE_PATH_OF_WISDOM_ATHLETICS">
+		<supports>The Path of Wisdom</supports>
+		<description>
+			<p>You gain expertise in Athletics.</p>
+			<p class="indent">Your proficiency bonus is doubled for any ability check you make that uses Athletics.</p>
+			<div element="ID_PROFICIENCY_SKILL_ATHLETICS" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="proficiency" id="ID_EXPERTISE_SKILL_ATHLETICS" />
+		</rules>
+		<requirements>ID_PROFICIENCY_SKILL_ATHLETICS</requirements>	
+	</element>
+	<element name="Deception Expertise" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_THE_PATH_OF_WISDOM_DECEPTION">
+		<supports>The Path of Wisdom</supports>
+		<description>
+			<p>You gain expertise in Deception.</p>
+			<p class="indent">Your proficiency bonus is doubled for any ability check you make that uses Deception.</p>
+			<div element="ID_PROFICIENCY_SKILL_DECEPTION" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="proficiency" id="ID_EXPERTISE_SKILL_DECEPTION" />
+		</rules>
+		<requirements>ID_PROFICIENCY_SKILL_DECEPTION</requirements>
+	</element>
+	<element name="History Expertise" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_THE_PATH_OF_WISDOM_HISTORY">
+		<supports>The Path of Wisdom</supports>
+		<description>
+			<p>You gain expertise in History.</p>
+			<p class="indent">Your proficiency bonus is doubled for any ability check you make that uses History.</p>
+			<div element="ID_PROFICIENCY_SKILL_HISTORY" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="proficiency" id="ID_EXPERTISE_SKILL_HISTORY" />
+		</rules>
+		<requirements>ID_PROFICIENCY_SKILL_HISTORY</requirements>	
+	</element>
+	<element name="Insight Expertise" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_THE_PATH_OF_WISDOM_INSIGHT" >
+		<supports>The Path of Wisdom</supports>
+		<description>
+			<p>You gain expertise in Insight.</p>
+			<p class="indent">Your proficiency bonus is doubled for any ability check you make that uses Insight.</p>
+			<div element="ID_PROFICIENCY_SKILL_INSIGHT" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="proficiency" id="ID_EXPERTISE_SKILL_INSIGHT" />
+		</rules>
+		<requirements>ID_PROFICIENCY_SKILL_INSIGHT</requirements>
+	</element>
+	<element name="Intimidation Expertise" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_THE_PATH_OF_WISDOM_INTIMIDATION">
+		<supports>The Path of Wisdom</supports>
+		<description>
+			<p>You gain expertise in Intimidation.</p>
+			<p class="indent">Your proficiency bonus is doubled for any ability check you make that uses Intimidation.</p>
+			<div element="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="proficiency" id="ID_EXPERTISE_SKILL_INTIMIDATION" />
+		</rules>
+		<requirements>ID_PROFICIENCY_SKILL_INTIMIDATION</requirements>		
+	</element>
+	<element name="Investigation Expertise" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_THE_PATH_OF_WISDOM_INVESTIGATION">
+		<supports>The Path of Wisdom</supports>
+		<description>
+			<p>You gain expertise in Investigation.</p>
+			<p class="indent">Your proficiency bonus is doubled for any ability check you make that uses Investigation.</p>
+			<div element="ID_PROFICIENCY_SKILL_INVESTIGATION" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="proficiency" id="ID_EXPERTISE_SKILL_INVESTIGATION" />
+		</rules>
+		<requirements>ID_PROFICIENCY_SKILL_INVESTIGATION</requirements>		
+	</element>
+	<element name="Nature Expertise" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_THE_PATH_OF_WISDOM_NATURE">
+		<supports>The Path of Wisdom</supports>
+		<description>
+			<p>You gain expertise in Nature.</p>
+			<p class="indent">Your proficiency bonus is doubled for any ability check you make that uses Nature.</p>
+			<div element="ID_PROFICIENCY_SKILL_NATURE" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="proficiency" id="ID_EXPERTISE_SKILL_NATURE" />
+		</rules>
+		<requirements>ID_PROFICIENCY_SKILL_NATURE</requirements>		
+	</element>
+	<element name="Perception Expertise" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_THE_PATH_OF_WISDOM_PERCEPTION">
+		<supports>The Path of Wisdom</supports>
+		<description>
+			<p>You gain expertise in Perception.</p>
+			<p class="indent">Your proficiency bonus is doubled for any ability check you make that uses Perception.</p>
+			<div element="ID_PROFICIENCY_SKILL_PERCEPTION" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="proficiency" id="ID_EXPERTISE_SKILL_PERCEPTION" />
+		</rules>
+		<requirements>ID_PROFICIENCY_SKILL_PERCEPTION</requirements>		
+	</element>
+	<element name="Performance Expertise" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_THE_PATH_OF_WISDOM_PERFORMANCE">
+		<supports>The Path of Wisdom</supports>
+		<description>
+			<p>You gain expertise in Performance.</p>
+			<p class="indent">Your proficiency bonus is doubled for any ability check you make that uses Performance.</p>
+			<div element="ID_PROFICIENCY_SKILL_PERFORMANCE" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="proficiency" id="ID_EXPERTISE_SKILL_PERFORMANCE" />
+		</rules>
+		<requirements>ID_PROFICIENCY_SKILL_PERFORMANCE</requirements>		
+	</element>
+	<element name="Persuasion Expertise" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_THE_PATH_OF_WISDOM_PERSUASION">
+		<supports>The Path of Wisdom</supports>
+		<description>
+			<p>You gain expertise in Persuasion.</p>
+			<p class="indent">Your proficiency bonus is doubled for any ability check you make that uses Persuasion.</p>
+			<div element="ID_PROFICIENCY_SKILL_PERSUASION" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="proficiency" id="ID_EXPERTISE_SKILL_PERSUASION" />
+		</rules>
+		<requirements>ID_PROFICIENCY_SKILL_PERSUASION</requirements>		
+	</element>
+	<element name="Religion Expertise" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_THE_PATH_OF_WISDOM_RELIGION">
+		<supports>The Path of Wisdom</supports>
+		<description>
+			<p>You gain expertise in Religion.</p>
+			<p class="indent">Your proficiency bonus is doubled for any ability check you make that uses Religion.</p>
+			<div element="ID_PROFICIENCY_SKILL_RELIGION" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="proficiency" id="ID_EXPERTISE_SKILL_RELIGION" />
+		</rules>
+		<requirements>ID_PROFICIENCY_SKILL_RELIGION</requirements>		
+	</element>
+	<element name="Sleight of hand Expertise" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_THE_PATH_OF_WISDOM_SLEIGHTOFHAND">
+		<supports>The Path of Wisdom</supports>
+		<description>
+			<p>You gain expertise in Sleight of hand.</p>
+			<p class="indent">Your proficiency bonus is doubled for any ability check you make that uses Sleight of hand.</p>
+			<div element="ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="proficiency" id="ID_EXPERTISE_SKILL_SLEIGHTOFHAND" />
+		</rules>
+		<requirements>ID_PROFICIENCY_SKILL_SLEIGHTOFHAND</requirements>			
+	</element>
+	<element name="Stealth Expertise" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_THE_PATH_OF_WISDOM_STEALTH">
+		<supports>The Path of Wisdom</supports>
+		<description>
+			<p>You gain expertise in Stealth.</p>
+			<p class="indent">Your proficiency bonus is doubled for any ability check you make that uses Stealth.</p>
+			<div element="ID_PROFICIENCY_SKILL_STEALTH" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="proficiency" id="ID_EXPERTISE_SKILL_STEALTH" />
+		</rules>
+		<requirements>ID_PROFICIENCY_SKILL_STEALTH</requirements>		
+	</element>
+	<element name="Survival Expertise" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_THE_PATH_OF_WISDOM_SURVIVAL">
+		<supports>The Path of Wisdom</supports>
+		<description>
+			<p>You gain expertise in Survival.</p>
+			<p class="indent">Your proficiency bonus is doubled for any ability check you make that uses Survival.</p>
+			<div element="ID_PROFICIENCY_SKILL_SURVIVAL" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="proficiency" id="ID_EXPERTISE_SKILL_SURVIVAL" />
+		</rules>
+		<requirements>ID_PROFICIENCY_SKILL_SURVIVAL</requirements>
+	</element>
+	<element name="Speciality" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_SPECIALITY">
+		<description>
+			<p>At 3rd level you choose a speciality that determines the focus of your study. Choose Master Healer or Master Scholar (both are detailed at the end of the class description). The speciality you choose grants you features at 3rd level, and again at 7th, 10th, 14th and 18th level.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype" name="Speciality" supports="Scholar Speciality" level="3" />
+		</rules>
+	</element>
+	<element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_ABILITY_SCORE_IMPROVEMENT_SCHOLAR">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Scholar 4)" supports="Improvement Option,Scholar,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Scholar 8)" supports="Improvement Option,Scholar,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Scholar 12)" supports="Improvement Option,Scholar,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Scholar 16)" supports="Improvement Option,Scholar,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Scholar 19)" supports="Improvement Option,Scholar,19" level="19" />
+		</rules>
+	</element>
+	<element name="Webs of Deceit" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_WEBS_OF_DECEIT">
+		<description> 
+			<p>At 5th level, your insight and learning is sufficient to manipulate others with well-timed words (or theatrics and cheap tricks). At the start of any interaction, you may make an Intelligence (Insight) test against a DC of 15 + the target’s Wisdom modifier. If successful, then at any point in the conversation, you may gain advantage on any one skill check through your scholarship and preparation.</p>
+			<p>You might, for example, make a cryptic reference to some secret known only to a few people, or remind the person you’re talking to about the deeds of their forefathers, or raise your staff to dramatically startle a flock of crows to underline your words. You might palm a firework, or arrive in just the nick of time.</p>
+		</description>
+	</element>
+	<element name="Shadow of the Past" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_SHADOW_OF_THE_PAST">
+		<description>
+			<p>At 6th level, you find deeper meaning in the long history of Middle-earth. If you remind another Player-hero of a relevant tale from the history of their people, then that character gains one Scholarly Inspiration die, a d6, which they may use to add to any roll. Once you have used this feature, you cannot use it again until you have taken a long rest.</p>
+		</description>
+
+	</element>
+	<element name="Physician" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_PHYSICIAN">
+		<description>
+			<p>At 9th level your use of the Hands of a Healer feature improves to cover a greater number of conditions. Now you can cure Blinded, Charmed or Deafened conditions. Additionally, by expending a Healing Die, you may remove the Petrified condition or a level of exhaustion.</p>
+		</description>
+	</element>
+	<element name="Hidden Paths" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_HIDDEN_PATHS">
+		<description>
+			<p>At 11th level, your mastery of lore is such that you know of secret paths, alternative routes and hidden entrances and passageways in the most unlikely of places. You may grant advantage to an ally on any one ability check related to one of the journey roles (Guide, Scout, Hunter or LookOut) by describing how your knowledge of obscure places and secret lore aids you. For example, you might lead the Company down a hidden valley when serving as Guide, or discover a secret dwarf-door as a Scout.</p>
+			<p>The paths you take often have their own perils or encounters; often, this ability takes you out of the frying pan and into the fire. You may only use this ability once per Adventuring phase.</p>
+		</description>	
+	</element>
+	<element name="Hope Unlooked-For" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_HOPE_UNLOOKED_FOR">
+		<description>
+			<p>At 13th level, you may make preparations in advance and only reveal them when the time is right. Once per Adventuring phase, you may activate this ability and describe actions you took in the past that were unknown to the rest of the player-heroes, but that have now come to light. You must then make a suitable skill check to determine how successful these preparations were. The Loremaster is entitled to veto any unreasonable suggestions.</p>
+			<p>Example uses of this ability might include:</p>
+			<ul>
+				<li>“I found this ancient map on another adventure, and I reveal it now.”</li>
+				<li>“I sent word to our allies in Rohan a week ago, and they are going to arrive to bolster our defences just before the Orcs attack.”</li>
+				<li>“I guessed the King would imprison us, which is why I bribed the jailer a week ago to hide a key behind this loose brick.”</li>
+				<li>“I just happened to bring along these fireworks.”</li>
+			</ul>
+		</description>
+		<sheet  usage="1/Adventuring Phase">
+			<description>Once per Adventuring phase, you may activate this ability and describe actions you took in the past that were unknown to the rest of the player-heroes, but that have now come to light. You must then make a suitable skill check to determine how successful these preparations were.</description>
+		</sheet>
+	</element>
+	<element name="Habits of the Wise" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_HABITS_OF_THE_WISE">
+		<description>
+			<p>At 15th level, your learning is such that you know there are few who can understand your concerns and worries, and so you must look to yourself for wise counsel. You may spend Inspiration to gain another use of a feature that typically requires a long rest before you can use it again, or is usable only once per Adventuring phase. Habits of the Wise is itself only usable once per Adventuring phase.</p>
+		</description>
+		<sheet usage="1/Adventuring Phase>">
+			<description>You may spend Inspiration to gain another use of a feature that typically requires a long rest before you can use it again, or is usable only once per Adventuring phase. Habits of the Wise is itself only usable once per Adventuring phase.</description>
+		</sheet>
+	</element>
+	<element name="Words Unspoken" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_WORDS_UNSPOKEN">
+		<description>
+			<p>At 17th level, you may convey your thoughts without speaking aloud. When dealing with high-level Scholars, Elves, Dúnedain or other folk of power, you may hold a full conversation, speaking mind to mind. Others have a sense or intuition of your words, but cannot reply, and may misinterpret your thoughts as their own. You cannot read the minds of others with this ability.</p>
+			<p>Once per long rest, you may send brief snatches of your thought over great distances, conveying a single word or short message in dreams.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>Once per long rest, you may send brief snatches of your thought over great distances, conveying a single word or short message in dreams.</description>
+		</sheet>
+	</element>
+	<element name="Great Among the Wise" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_GREAT_AMONG_THE_WISE">
+		<description>
+			<p>At 20th level, your knowledge on one subject approaches absolute and the Wise widely recognise you as the preeminent authority on matters pertaining to your chosen lore. Choose one Intelligence or Wisdom skill – you automatically succeed at all ability checks using that skill.</p>
+			<p>Additionally, you may spend Inspiration to learn something completely hidden about your chosen lore. Whether by shrewd guess or seemingly chance insight, you learn a useful secret that most could have no way of knowing. You must take a long rest in a Sanctuary before you use this feature again.</p>
+		</description>
+		<rules>
+			<select name="Great Among The Wise" type="Class Feature" supports="Great Among The Wise" />
+		</rules>
+		<sheet>
+		<description></description>
+		</sheet>
+	</element>	
+	<element name="Master Healer" type="Archetype" source="Willem" id="ID_WILLEM_AIME_ARCHETYPE_SCHOLAR_MASTER_HEALER">
+		<supports>Scholar Speciality</supports>
+		<description>
+			<p>You have studied anatomy, physiology and all manner of curative arts. You know how to use healing herbs and poultices, how to let blood to purge a wound and how to bind one, and how to fight sicknesses that assail the spirit as well as the body</p>
+			<div element="ID_WILLEM_AIME_ARCHETYPE_FEATURE_IMPROVED_HEALING"/>
+			<div element="ID_WILLEM_AIME_ARCHETYPE_FEATURE_HEALING_LORES"/>
+			<div element="ID_WILLEM_AIME_ARCHETYPE_FEATURE_HOUSE_OF_THE_HEALER"/>
+			<div element="ID_WILLEM_AIME_ARCHETYPE_FEATURE_SEEN_AND_UNSEEN"/>
+		</description>
+		<sheet display="false">
+			<description>You have studied anatomy, physiology and all manner of curative arts. You know how to use healing herbs and poultices, how to let blood to purge a wound and how to bind one, and how to fight sicknesses that assail the spirit as well as the body</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_WILLEM_AIME_ARCHETYPE_FEATURE_IMPROVED_HEALING" level="3" />
+			<grant type="Archetype Feature" id="ID_WILLEM_AIME_ARCHETYPE_FEATURE_HEALING_LORES" level="3" />
+			<grant type="Archetype Feature" id="ID_WILLEM_AIME_ARCHETYPE_FEATURE_HOUSE_OF_THE_HEALER" level="14" />
+			<grant type="Archetype Feature" id="ID_WILLEM_AIME_ARCHETYPE_FEATURE_SEEN_AND_UNSEEN" level="18" />
+		</rules>
+	</element>
+	<element name="Improved Healing" type="Archetype Feature" source="Willem" id="ID_WILLEM_AIME_ARCHETYPE_FEATURE_IMPROVED_HEALING">
+		<description>
+			<p>When you choose this speciality at 3rd level you become an expert at treating injuries. Whenever you use the Hands of the Healer feature to restore hit points, you roll 2d8 in place of 1d8.</p>
+		</description>
+		<sheet display="false">
+			<description>Whenever you use the Hands of the Healer feature to restore hit points, you roll 2d8 in place of 1d8.</description>
+		</sheet>
+	</element>
+	<element name="Healing lores" type="Archetype Feature" source="Willem" id="ID_WILLEM_AIME_ARCHETYPE_FEATURE_HEALING_LORES">
+		<description>
+			<p>Also at 3rd level, you make a discovery in your quest to understand the mind and body. You gain another discovery at 7th, 10th, 14th and 18th levels.</p>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<select type="Archetype Feature" name="Healing Lore" supports="Healing Lores" level="3" />
+			<select type="Archetype Feature" name="Healing Lore" supports="Healing Lores" level="7" />
+			<select type="Archetype Feature" name="Healing Lore" supports="Healing Lores" level="10" />
+			<select type="Archetype Feature" name="Healing Lore" supports="Healing Lores" level="14" />
+			<select type="Archetype Feature" name="Healing Lore" supports="Healing Lores" level="18" />
+		</rules>
+	</element>
+	<element name="House of the Healer" type="Archetype Feature" source="Willem" id="ID_WILLEM_AIME_ARCHETYPE_FEATURE_HOUSE_OF_THE_HEALER">
+		<description>
+			<p>At 14th level, if you reside in a place for more than a year, it becomes a Sanctuary as long as you remain there. Once you leave, this blessing persists for one month per Scholar level.</p>
+		</description>
+		<sheet>
+			<description>At 14th level, if you reside in a place for more than a year, it becomes a Sanctuary as long as you remain there. Once you leave, this blessing persists for one month per Scholar level.</description>
+		</sheet>
+	</element>
+	<element name="Seen and Unseen" type="Archetype Feature" source="Willem" id="ID_WILLEM_AIME_ARCHETYPE_FEATURE_SEEN_AND_UNSEEN">
+		<description>
+			<p>Once you reach 18th level, even if you have never been there, the light of the Blessed Realm shines in your eyes. You have advantage on all tests against Corruption, and can see invisible creatures and spirits.</p>
+		</description>
+		<sheet>
+			<description></description>
+		</sheet>
+	</element>
+	<element name="Master Scholar" type="Archetype" source="Willem" id="ID_WILLEM_AIME_ARCHETYPE_SCHOLAR_MASTER_SCHOLAR">
+		<supports>Scholar Speciality</supports>
+		<description>
+			<p>You have studied ancient books and scrolls in the treasured libraries of the great cities, or you learned rhymes of lore and secrets unwritten from some older master. You know much that is hidden or lost.</p>
+			<div element="ID_WILLEM_AIME_ARCHETYPE_FEATURE_BONUS_PROFICIENCY"/>
+			<div element="ID_WILLEM_AIME_ARCHETYPE_FEATURE_SECRET_LORES"/>
+			<div element="ID_WILLEM_AIME_ARCHETYPE_FEATURE_DEEP_KNOWLEDGE"/>
+			<div element="ID_WILLEM_AIME_ARCHETYPE_FEATURE_WORDS_OF_COMMAND"/>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_WILLEM_AIME_ARCHETYPE_FEATURE_BONUS_PROFICIENCY" level="3" />
+			<grant type="Archetype Feature" id="ID_WILLEM_AIME_ARCHETYPE_FEATURE_SECRET_LORES" level="3" />
+			<grant type="Archetype Feature" id="ID_WILLEM_AIME_ARCHETYPE_FEATURE_DEEP_KNOWLEDGE" level="14" />
+			<grant type="Archetype Feature" id="ID_WILLEM_AIME_ARCHETYPE_FEATURE_WORDS_OF_COMMAND" level="18" />
+		</rules>
+	</element>
+	<element name="Bonus Proficiency" type="Archetype Feature" source="Willem" id="ID_WILLEM_AIME_ARCHETYPE_FEATURE_BONUS_PROFICIENCY">
+		<description>When you choose this speciality at 3rd level, you gain proficiency in a single Intelligence or Wisdom skill of your choice.</description>
+		<rules>
+			<select type="Proficiency" name="Bonus Proficiency" supports="ID_WILLEM_AIME_PROFICIENCY_SKILL_RIDDLE|ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_RELIGION|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_PERCEPTION| ID_PROFICIENCY_SKILL_SURVIVAL|ID_WILLEM_AIME_PROFICIENCY_SKILL_SHADOW_LORE|ID_PROFICIENCY_SKILL_ANIMALHANDLING|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_MEDICINE" />
+		</rules>
+		<sheet display="false">
+		</sheet>
+	</element>
+	<element name="Secret Lores" type="Archetype Feature" source="Willem" id="ID_WILLEM_AIME_ARCHETYPE_FEATURE_SECRET_LORES">
+		<description>
+			<p>Also at 3rd level, you make a discovery in your quest to understand the mind and body. You gain another discovery at 7th, 10th, 14th and 18th levels.</p>
+		</description>
+		<rules>
+			<select type="Archetype Feature" name="Secret Lore" supports="Secret Lores" level="3" />
+			<select type="Archetype Feature" name="Secret Lore" supports="Secret Lores" level="7" />
+			<select type="Archetype Feature" name="Secret Lore" supports="Secret Lores" level="10" />
+			<select type="Archetype Feature" name="Secret Lore" supports="Secret Lores" level="14" />
+			<select type="Archetype Feature" name="Secret Lore" supports="Secret Lores" level="18" />
+		</rules>
+		<sheet display="false">
+		</sheet>
+	</element>
+	<element name="Deep Knowledge" type="Archetype Feature" source="Willem" id="ID_WILLEM_AIME_ARCHETYPE_FEATURE_DEEP_KNOWLEDGE">
+		<description>
+			<p>At 14th level, your accumulated knowledge over the years has given you bits and pieces about people, locations, objects and events that you are likely to encounter.</p>
+			<p>Much of this information is stored in your head, but even more is contained in scrolls and books that you have access to, as well as others among the Wise whose counsel you can ask for.</p>
+			<p>When you first encounter a person, object, location or event, you may ask the Loremaster three questions about it, for which they will provide truthful answers. If you do so, in addition to the lore you learn, you have advantage on any subsequent ability checks directly regarding that person, object, location or event for the rest of the Adventuring phase. Due to the sometimes intense nature of recalling such information, you may not use this feature again until you have taken a long rest in a Sanctuary</p>
+		</description>
+	</element>
+	<element name="Word of Command" type="Archetype Feature" source="Willem" id="ID_WILLEM_AIME_ARCHETYPE_FEATURE_WORDS_OF_COMMAND">
+		<description>
+			<p>At 18th level, your mastery of lore gives you authority over the world around you. Once per short rest you may speak a word of command. When you do so, choose a target related to one of the secrets you have mastered and make the appropriate skill check against a DC set by the Loremaster (typically at least a DC 20). If successful, you may give a short but irresistible command to your target. For example:</p>
+			<ul>
+				<li><b>Ancient lore: </b>Command a door made by the Elves of Eregion to open.</li>				
+				<li><b>Birds and Beasts: </b>Order a fearsome wolf to fly back to its den.</li>
+				<li><b>Dark Knowledge: </b>Command a wraith to return to its tomb.</li>
+				<li><b>Natural World: </b>Order a pile of firewood to burst into flame.</li>
+				<li><b>Runes: </b>Command moon-letters to reveal themselves in the full light of day.</li>
+				<li><b>Works of Elder Days: </b>Wrench control of a palantir from the will of the Dark Lord.</li>
+			</ul>	
+		</description>
+	</element>	
+</elements>

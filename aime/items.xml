@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Items</name>
+		<description>Items</description>
+		<update version="0.0.1">
+		<file name="items.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/items.xml" />		
+		</update>
+	</info>
+	<element name="Miner's Tools" type="Item" source="Willem" id="ID_WOTC_PHB_ITEM_TOOL_MINERS_TOOLS">
+		<description>
+			<p>Miner's tools are used to mine.</p>
+		</description>
+		<setters>
+			<set name="category">Tools</set>
+			<set name="cost" currency="sp">20</set>
+			<set name="weight" lb="8">8 lbs.</set>
+			<set name="type">Tool</set>
+			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_MINERS_TOOLS</set>
+		</setters>
+	</element>
+		<element name="Tool Proficiency (Miner's Tools)" type="Proficiency" source="Willem" id="ID_PROFICIENCY_TOOL_PROFICIENCY_MINERS_TOOLS">
+		<description>
+			<p>Miner's tools are used to mine.</p>
+		</description>
+	</element>
+	<element name="Fiddle" type="Item" source="Willem" id="ID_WILLEM_AIME_INSTRUMENT_FIDDLE">
+		<supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
+		<description>
+			<p>A violin like music instrument.</p>
+		</description>
+		<setters>
+			<set name="category">Musical Instruments</set>
+			<set name="cost" currency="sp">25</set>
+			<set name="weight" lb="2">2 lbs.</set>
+			<set name="slot">onehand</set>
+			<set name="proficiency">ID_AIME_PROFICIENCY_TOOL_PROFICIENCY_FIDDLE</set>
+		</setters>
+	</element>
+		<element name="Mattock" type="Weapon" source="Willem" id="ID_WILLEM_AIME_WEAPON_MATTOCK">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+		<description>
+			<p>A heavy digging implement, sporting a curved head with a point on one side and a spade-like ‘blade’ on the other. King Dáin’s Iron Guard and a number of his folk from the Iron Hills choose to wield their mattocks in battle to fearsome effect.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="sp">20</set>
+			<set name="weight" lb="2">10 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="piercing">2d6</set>
+			<set name="proficiency">ID_WILLEM_AIME_WEAPON_PROFICIENCY_MATTOCK</set>
+		</setters>
+	</element>
+	<element name="Weapon Proficiency (Mattock)" type="Proficiency" source="Willem" id="ID_WILLEM_AIME_WEAPON_PROFICIENCY_MATTOCK">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_HEAVY</supports>
+	</element>
+		<element name="Broadsword" type="Weapon" source="Willem" id="ID_WILLEM_AIME_WEAPON_BROADSWORD">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="sp">30</set>
+			<set name="weight" lb="2">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="slashing">1d8</set>
+			<set name="proficiency">ID_WILLEM_AIME_WEAPON_PROFICIENCY_BROADSWORD</set>
+		</setters>
+	</element>
+	<element name="Weapon Proficiency (Broadsword)" type="Proficiency" source="Willem" id="ID_WILLEM_AIME_WEAPON_PROFICIENCY_BROADSWORD">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
+	</element>
+		<element name="Great Spear" type="Weapon" source="Willem" id="ID_WILLEM_AIME_WEAPON_GREAT_SPEAR">
+		<supports>ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_REACH</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="sp">20</set>
+			<set name="weight" lb="2">9 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="piercing">1d12</set>
+		</setters>
+	</element>
+	<element name="Weapon Proficiency (Great Spear)" type="Proficiency" source="Willem" id="ID_WILLEM_AIME_WEAPON_PROFICIENCY_GREAT_SPEAR">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+	</element>
+		<element name="Heavy Scimitar" type="Weapon" source="Willem" id="ID_WILLEM_AIME_WEAPON_HEAVY_SCIMITAR">
+		<supports>ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_HEAVY</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="sp">50</set>
+			<set name="weight" lb="2">6 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="slashing">2d6</set>
+		</setters>
+	</element>
+	<element name="Weapon Proficiency (Heavy Scimitar)" type="Proficiency" source="Willem" id="ID_WILLEM_AIME_WEAPON_PROFICIENCY_HEAVY_SCIMITAR">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+	</element>
+		<element name="Scimitar" type="Weapon" source="Willem" id="ID_WILLEM_AIME_WEAPON_SCIMITAR">
+		<supports>ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="sp">10</set>
+			<set name="weight" lb="2">3 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="slashing">1d6</set>
+		</setters>
+	</element>
+	<element name="Weapon Proficiency (Scimitar)" type="Proficiency" source="Willem" id="ID_WILLEM_AIME_WEAPON_PROFICIENCY_SCIMITAR">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
+	</element>
+	<element name="Great Shield" type="Armor" source="Player’s Handbook" id="ID_WILLEM_AIME_GREAT_SHIELD">
+		<supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
+		<description>
+			<p>Huge and round or barrel-shaped, these shields are carried in battle by the sturdiest of warriors, and are considered too cumbersome and unwieldy by many. Great shields can only be used by Size Medium or larger warriors.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="sp">30</set>
+			<set name="weight" lb="6">35 lb.</set>
+			<set name="slot">onehand,secondary</set>
+			<set name="type">Shield</set>
+			<set name="armor">Shield</set>
+			<set name="armorClass">+4</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_GREAT_SHIELD</set>
+			<set name="strength">13</set>
+			<set name="stealth">Disadvantage</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
+			<stat name="ac:shield" value="4" bonus="shield" />
+			<stat name="speed" value="-10" bonus="armor" requirements="![str:13]" />
+		</rules>
+	</element>
+	<element name="Pipe" type="Item" source="Willem" id="ID_WILLEM_AIME_ITEM_TOOL_PIPE">
+		<description>
+			<p>A pipe is made of clay or wood and used for inhaling the smoke of burning leaves of pipe-weed. Proficiency with a pipe means you practice the art of smoking and likely have some skill at blowing smoke-rings. Smoking a pipe can aid in both introspection and friendly chatting with fellow practitioners of the art.</p>
+			<p>If you spend an hour smoking your pipe while considering a problem, you may make an ability check with your proficiency bonus against a Difficulty Class 15. On a success, you make the immediate follow-on check with advantage. On a failure, you wasted an hour, but had a good smoke.</p>
+		</description>
+		<setters>
+			<set name="category">Tools</set>
+			<set name="cost" currency="sp">5</set>
+			<set name="weight" lb="8">1 lbs.</set>
+			<set name="type">Tool</set>
+			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_PIPE</set>
+		</setters>
+	</element>
+		<element name="Tool Proficiency (Pipe)" type="Proficiency" source="Willem" id="ID_PROFICIENCY_TOOL_PROFICIENCY_PIPE">
+		<description>
+			<p>A pipe is made of clay or wood and used for inhaling the smoke of burning leaves of pipe-weed. Proficiency with a pipe means you practice the art of smoking and likely have some skill at blowing smoke-rings. Smoking a pipe can aid in both introspection and friendly chatting with fellow practitioners of the art.</p>
+			<p>If you spend an hour smoking your pipe while considering a problem, you may make an ability check with your proficiency bonus against a Difficulty Class 15. On a success, you make the immediate follow-on check with advantage. On a failure, you wasted an hour, but had a good smoke.</p>
+		</description>
+	</element>
+	<element name="Gaming set" type="Item" source="Willem" id="ID_WILLEM_AIME_ITEM_TOOL_GAMING_SET">
+		<description>
+		 <p>Used to play games.</p>
+		</description>
+		<setters>
+			<set name="category">Tools</set>
+			<set name="cost" currency="sp">1</set>
+			<set name="weight" lb="8">1 lbs.</set>
+			<set name="type">Tool</set>
+			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_GAMING_SET</set>
+		</setters>
+	</element>
+		<element name="Tool Proficiency (Gaming Set)" type="Proficiency" source="Willem" id="ID_PROFICIENCY_TOOL_PROFICIENCY_GAMING_SET">
+		<description>
+			<p>Used to play games.</p>
+		</description>
+	</element>
+		<element name="Healing Kit" type="Item" source="Willem" id="ID_WILLEM_AIME_ITEM_TOOL_HEALING_KIT">
+		<description>
+		 <p>Proficiency with a Healing Kit allows you to add your proficiency bonus to ability checks that use a Healing Kit</p>
+		</description>
+		<setters>
+			<set name="category">Tools</set>
+			<set name="cost" currency="sp">5</set>
+			<set name="weight" lb="8">2 lbs.</set>
+			<set name="type">Tool</set>
+			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_HEALING_KIT</set>
+		</setters>
+	</element>
+		<element name="Tool Proficiency (Healing Kit)" type="Proficiency" source="Willem" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HEALING_KIT">
+		<description>
+			<p>Proficiency with a Healing Kit allows you to add your proficiency bonus to ability checks that use a Healing Kit</p>
+		</description>
+	</element>
+	
+</elements>

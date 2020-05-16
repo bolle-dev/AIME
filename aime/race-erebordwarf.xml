@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Erebor Dwarf</name>
+		<description>Erebor Dwarf race</description>
+		<update version="0.0.1">
+		<file name="race-erebordwarf.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/race-erebordwarf.xml" />		
+		</update>
+	</info>
+	<element name="Dwarf Of The Lonely Mountain" type="Race" source="Willem" id="ID_WILLEM_AIME_RACE_DWARF">
+		<description>
+			<p>Dwarves are an ancient and secretive race, whose customs and traditions are mostly unknown to outsiders. At the end of the Third Age, they are a proud but dwindling people, survivors from a distant past. Almost all dwarves that can be encountered speak of themselves as belonging to 'Durin's folk'. They are probably the most redoubtable warriors in Middle-earth, hard to break or corrupt, but often at odds with other Free Peoples over old quarrels or new slights; Dwarves are short and stocky, with robust limbs and heads crowned with long hair and longer beards that give them their typically elderly appearance. They are long-lived, known to reach 250 years of age.</p>
+			<h4>The "Outer" Names Of Durin's Folk</h4>
+			<p>All Dwarves of Durin’s Folk receive a true name at birththat they do not reveal to members of other races. In their dealings with other people, they adopt personal names inthe language of friendly cultures. The Dwarves of Ereborare no exception, and commonly use names after thefashion of the Men of the North. This custom has beenin use for so long that a number of names have become traditionally associated with Dwarves, and are used almost exclusively by them.</p>
+			<h4>Standard Of Living</h4>
+			<p>With the fabulous Dragon-Hoard of Erebor reclaimed and their kingdom restored, the Dwarves of the Lonely Mountain rank as a Rich culture.</p>
+			<h4>Bonus equipment</h4>
+			<p>A fur-lined travelling cloak, travelling gear for the current season, a bedroll, an ornamented walking stick, a backpack, comfortable boots, 10d6 silver pennies, plus choose any two: another 2d6 silver pennies, a gold coin from the hoard of Smaug the Magnificent, artisan’s tools of your choice, a musical instrument, a fine beard comb and mirror, a gold ring, a flask of dwarven spirits</p>
+			<h4>DWARF NAMES</h4>
+			<p>Dwarves of renown are sometimes given a byname,usually an honorific title celebrating an exceptional deedor distinctive quality (for example, Thorin Oakenshield or Dáin Ironfoot).</p>
+			<p><strong>Male Names:</strong> Ai, Anar, Balin, Beli, Bifur, Bláin, Bofur, Bombur, Borin, Burin, Bruni, Dáin, Dori, Durin, Dwalin, Farin, Fíli, Flói, Frár, Frerin, Frór, Fundin, Gimli, Ginar, Glóin, Gróin, Grór, Hanar, Hepti, Iari, Kíli, Lófar, Lóni, Náin, Náli, Nár, Narvi, Niping, Nói, Nori, Núr, Nýrád, Óin, Ónar, Óri, Póri, Regin, Svior, Thorin, Thráin, Thrór, Veig, Vidar<br/>
+			<strong>Female Names:</strong> Dís, Hón, Kóna, Már</p>
+			<h4>DWARF TRAITS</h4>
+			<p>Your dwarf character has the following racial traits.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2</p>
+			<p class="indent"><strong><em>Adventuring Age.</em></strong> 50 to 100. Dwarves generally start their life on the road in their fifties, and do not usually consider retiring before their nineties. Around that time, they feel they can no longer stay away from their family, or want to dedicate themselves solely to the perfection of their crafts. But Dwarves can remain active until they are more than two hundred years old, and may return to adventuring if a great need arises, like the opportunity to avenge an old insult or injury, or to recover a treasure or reclaim a long-lost dwarf-hold. A healthy Dwarf who avoids a violent death can reach 250 years of age</p>
+			<p class="indent"><strong><em>Size.</em></strong> Dwarves stand between 4 and 5 feet tall and can weigh upwards of 160 lbs. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 25 feet. Your speed is not reduced by wearing heavy armour.</p>
+			<p class="indent"><strong><em>Night Vision(Dwarf).</em></strong> Accustomed to life underground, you have superior vision in dim conditions. You can see in Dim light within 60 feet of you as if it were bright light, but you cannot see in the dark.</p>
+			<p class="indent"><strong><em>Dwarven resilience.</em></strong> You have advantage on saving throws against poison, and you have resistance against poison damage.</p>
+			<p class="indent"><strong><em>Dwarven Combat Training.</em></strong> You have proficiency with axe, hand axe, great axe, light hammer, and warhammer.</p>
+			<p class="indent"><strong><em>Tool Proficiency.</em></strong>  You gain proficiency with the artisan’s tools of your choice: jeweller’s tools, mason’s tools, miner’s tools, smith’s tools, or woodcarver’s tools. You also gain proficiency in one musical instrument of your choice.</p>
+			<p class="indent"><strong><em>Stonecunning.</em></strong> Whenever you make an Intelligence(History) ability check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Dalish, which is the tongue of the Bardings, who speak an older version of the Common Tongue. You can also speak, read and write the secret language of your people, which has never been shared with any others.</p>	
+			<p class="indent"><strong><em>Origins.</em></strong> As a Dwarf of the Lonely Mountain you must pick an origin of either Erebor or the Iron Hills.</p>
+		</description>
+		<setters>
+			<set name="names" type="male">Ai, Anar, Balin, Beli, Bifur, Bláin, Bofur, Bombur, Borin, Burin, Bruni, Dáin, Dori, Durin, Dwalin, Farin, Fíli, Flói, Frár, Frerin, Frór, Fundin, Gimli, Ginar, Glóin, Gróin, Grór, Hanar, Hepti, Iari, Kíli, Lófar, Lóni,  Náin, Náli, Nár, Narvi, Niping, Nói, Nori, Núr, Nýrád, Óin, Ónar, Óri, Póri, Regin, Svior, Thorin, Thráin, Thrór, Veig, Vidar</set>
+			<set name="names" type="female">Dís, Hón, Kóna, Már</set>
+			<set name="names-format">{{name}}</set>
+			<set name="height" modifier="1d10">4'0"</set>
+			<set name="weight" modifier="2d12"> 200 lb.</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="2" />
+			<stat name="innate speed" value="25" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_WILLEM_AIME_LANGUAGE_WESTRON" />
+			<grant type="Language" id="ID_WILLEM_AIME_LANGUAGE_DWARVEN" />
+			<grant type="Racial Trait" id="ID_WOTC_GGTR_RACIAL_TRAIT_CENTAUR_FEY" />
+			<grant type="Racial Trait" id="ID_WOTC_GGTR_RACIAL_TRAIT_CENTAUR_HOOVES" />
+			<grant type="Racial Trait" id="ID_WOTC_GGTR_RACIAL_TRAIT_CENTAUR_EQUINE_BUILD" />
+			<grant type="Racial Trait" id="ID_WOTC_GGTR_RACIAL_TRAIT_CENTAUR_SURVIVOR" />
+			<grant type="Racial Trait" id="ID_WOTC_GGTR_RACIAL_TRAIT_CENTAUR_CHARGE" />
+			<grant type="Racial Trait" id="ID_WILLEM_AIME_RACIAL_TRAIT_DWARVEN_ORIGIN" />
+		</rules>
+	</element>	
+	<element name="Night Vision" type="Racial Trait" source="Willem" id="ID_WOTC_GGTR_RACIAL_TRAIT_CENTAUR_CHARGE">
+		<description>
+			<p>Accustomed to life underground, you have superior vision in dim conditions. You can see in Dim light within 60 feet of you as if it were bright light, but you cannot see in the dark.</p>
+		</description>
+		<sheet>
+			<description>You can see in Dim light within 60 feet of you as if it were bright light, but you cannot see in the dark.</description>
+		</sheet>
+	</element>
+	<element name="Dwarven Resilience" type="Racial Trait" source="Willem" id="ID_WOTC_GGTR_RACIAL_TRAIT_CENTAUR_FEY">
+		<description>
+			<p>You have advantage on saving throws against poison, and you have resistance against poison damage.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws against poison, and you have resistance against poison damage.</description>
+		</sheet>
+	</element>
+	<element name="Dwarven Combat Training" type="Racial Trait" source="Willem" id="ID_WOTC_GGTR_RACIAL_TRAIT_CENTAUR_HOOVES">
+		<description>
+			<p>You have proficiency with axe, hand axe, great axe, light hammer and warhammer</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BATTLEAXE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LIGHT_HAMMER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATAXE" />
+		</rules>
+	</element>
+	<element name="Tool Proficiency" type="Racial Trait" source="Willem" id="ID_WOTC_GGTR_RACIAL_TRAIT_CENTAUR_EQUINE_BUILD">
+		<description>
+			<p>You gain proficiency with the artisan’s tools of your choice: jeweller’s tools, mason’s tools, miner’s tools, smith’s tools, or woodcarver’s tools. You also gain proficiency in one musical instrument of your choice.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<select type="Proficiency" name="Dwarven Tool Proficiency" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_MINERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_WOODCARVERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_JEWELERS_TOOLS"/>
+			<select type="Proficiency" name="Musical Instrument (Tool Proficiency)" supports="ID_AIME_PROFICIENCY_TOOL_PROFICIENCY_FIDDLE|ID_SCAG_PROFICIENCY_TOOL_PROFICIENCY_HAND_DRUM|ID_PROFICIENCY_TOOL_PROFICIENCY_FLUTE|ID_PROFICIENCY_TOOL_PROFICIENCY_LUTE|ID_PROFICIENCY_TOOL_PROFICIENCY_LYRE|ID_PROFICIENCY_TOOL_PROFICIENCY_HORN|ID_PROFICIENCY_TOOL_PROFICIENCY_VIOL" number="1" />
+		</rules>
+	</element>
+	<element name="Stonecunning" type="Racial Trait" source="Willem" id="ID_WOTC_GGTR_RACIAL_TRAIT_CENTAUR_SURVIVOR">
+		<description>
+			<p>Whenever you make an Intelligence(History) ability check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus. </p>
+		</description>
+		<sheet display="true">
+			<description>Whenever you make an Intelligence(History) ability check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</description>
+		</sheet>
+	</element>  
+    <element name="Dwarven Origins" type="Racial Trait" source="Willem" id="ID_WILLEM_AIME_RACIAL_TRAIT_DWARVEN_ORIGIN">
+     <description>
+      <p>As a Dwarf of the Lonely Mountain you must pick an origin of either Erebor or the Iron Hills.</p>
+     </description>
+     <sheet display="false"/>
+     <rules>
+      <select type="Sub Race" name="Dwarven Origins" supports="Dwarf Of The Lonely Mountain"/>
+     </rules>
+    </element>	
+	<element name="Erebor" type="Sub Race" source="Willem" id="ID_WILLEM_AIME_ORIGIN_EREBOR">
+		<supports>Dwarf Of The Lonely Mountain</supports>
+		<description>
+			<p>You belong to the line of Durin’s folk once native to Erebor, though you may have spent much of your life on the road, or come from the Blue Mountains in the West. Long accustomed to hardship, you’ve learned much in your time, but you’ve come home at last. </p>
+			<p>     
+				<span class="feature">Ability Score Increase.</span>Your Wisdom score increases by 1.<br />
+				<span class="feature">Dwarven Toughness.</span>Your hit point maximum increases by 1, and it increases by one every time you gain a level.<br />
+				<span class="feature">Road Wisdom.</span>You may choose one additional tool proficiency of your choice.<br />
+			</p>
+		</description>
+			<sheet display="false"/>
+			<rules>
+				<stat name="wisdom" value="1" />
+				<grant type="Racial Trait" id="ID_WILLEM_AIME_RACIAL_TRAIT_DWARF_EREBOR_DWARVEN_TOUGHNESS" />
+				<grant type="Racial Trait" id="ID_WILLEM_AIME_RACIAL_TRAIT_DWARF_EREBOR_ROAD_WISDOM"/>
+			</rules>
+   </element>
+  <element name="Dwarven toughness" type="Racial Trait" source="Willem" id="ID_WILLEM_AIME_RACIAL_TRAIT_DWARF_EREBOR_DWARVEN_TOUGHNESS">
+    <description>
+      <p>Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</p>
+    </description>
+    <sheet display="false"/>
+  </element>
+  <element name="Road Wisdom" type="Racial Trait" source="Willem" id="ID_WILLEM_AIME_RACIAL_TRAIT_DWARF_EREBOR_ROAD_WISDOM">
+    <description>
+      <p>You may choose one additional tool proficiency of your choice.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+  		<select type="Proficiency" name="Tool Proficiency, Road Wisdom" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_WOODCARVERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_POTTERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_PAINTERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_JEWELERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT|ID_PROFICIENCY_TOOL_PROFICIENCY_GLASSBLOWERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT|ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT|ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS|ID_PROFICIENCY_TOOL_PROFICIENCY_COBBLERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_CARTOGRAPHERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_BREWERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_MINERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_PIPE|ID_PROFICIENCY_TOOL_PROFICIENCY_GAMING_SET|ID_AIME_PROFICIENCY_TOOL_PROFICIENCY_FIDDLE|ID_SCAG_PROFICIENCY_TOOL_PROFICIENCY_HAND_DRUM|ID_PROFICIENCY_TOOL_PROFICIENCY_FLUTE|ID_PROFICIENCY_TOOL_PROFICIENCY_LUTE|ID_PROFICIENCY_TOOL_PROFICIENCY_LYRE|ID_PROFICIENCY_TOOL_PROFICIENCY_HORN|ID_PROFICIENCY_TOOL_PROFICIENCY_VIOL" />
+    </rules>
+  </element>
+  <element name="The Iron Hills" type="Sub Race" source="Willem" id="ID_WILLEM_AIME_ORIGIN_IRONHILLS">
+	  <supports>Dwarf Of The Lonely Mountain</supports>
+	  <description>
+		<p>You belong to the line of Durin’s folk that headed east to found a hold in the Iron Hills when Erebor was first reclaimed, before the coming of Smaug. Your people are great miners and stern warriors, with strong arms from long hours of breaking stone. </p>
+		<p> 
+			<span class="feature">Ability Score Increase.</span>Your Strength score increases by 2.<br />
+			<span class="feature">Tool For War.</span>You have proficiency with the mattock.<br />
+		</p>
+	  </description>
+		<sheet display="false"/>
+		<rules>	
+			<stat name="strength" value="2" />
+			<grant type="Racial Trait" id="ID_WILLEM_AIME_RACIAL_TRAIT_DWARF_IRON_HILLS_TOOL_FOR_WAR" />
+		</rules>
+  </element>
+	<element name="Tool For War" type="Racial Trait" source="Willem" id="ID_WILLEM_AIME_RACIAL_TRAIT_DWARF_IRON_HILLS_TOOL_FOR_WAR" >
+		<description>
+			<p>You have proficiency with the mattock.</p>
+		</description>
+	 <sheet display="false"/>
+		<rules>
+			<grant type="Proficiency" id="ID_WILLEM_AIME_WEAPON_PROFICIENCY_MATTOCK" />
+		</rules>
+    </element>	
+</elements>

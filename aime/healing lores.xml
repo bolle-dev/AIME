@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Healing Lores</name>
+		<description>Healing Lores</description>
+		<update version="0.0.1">
+		<file name="healing lores.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/healing%20lores.xml" />		
+		</update>
+	</info>
+	<element name="Healing Herbs" type="Archetype Feature" source="Willem" id="ID_WILLEM_AIME_ARCHETYPE_FEATURE_HEALING_HERBS">
+		<supports>Healing Lores</supports>
+		<description>
+			<p>You have studied herb-lore in great depth, and know secret techniques to cure illness and poison. A creature now only needs a short rest to recover from disease or poison when you use your Hands of a Healer feature.</p>
+			<p>In addition, you have learned far more than the common uses of healing herbs and are capable of using them in more potent forms, or in new ways. When using medicinal herbs, use these effects instead of the normal effects of the herb</p>
+			<ul>
+				<li><b>Athelas: </b>Burned into a powder and then boiled, this herb produces a cloud of vapour that removes a level of exhaustion from a number of creatures equal to your Scholar level.</li>
+				<li><b>Hagweed: </b>Ground into a paste, dried and smoked in a pipe, hagweed eases the spirit and cures 1 Shadow point. A Master Healer can only cure 1 Shadow point using hagweed per year.</li>
+				<li><b>Kingcup: </b>A poultice of kingcup applied to a poisoned wound draws the poison out and heals any damage the poison has caused.</li>
+				<li><b>Reedmace: </b>Dried, powdered and inhaled, reedmace allows a person to stay awake and aware for three days without the need for sleep or food. After that, the Player-hero gains two levels of exhaustion.</li>
+				<li><b>Shadow-thorn: </b>Once double brewed and strained, shadow-thorn produces a wet residue of plant matter that can be used to perfectly mask a creature’s scent, giving them advantage on Dexterity (Stealth) ability checks for three days.</li>
+				<li><b>Water-lily: </b>If dried and ground into a fine powder, white water-lily can be baked into sweet cakes. These cakes invigorate and revivify, allowing a single person to gain the advantages of a long rest while taking a short rest, provided the Player-hero also gets a good night’s sleep.</li>
+				<p>If boiled down to a syrup, red water-lily creates a potent but evil-smelling liquid. Few who know of this use readily produce this remedy, for while it does grant the Player-hero +2 to attack and damage rolls for an hour, it also generates a red anger and 1 Shadow point.</p>
+			</ul>
+		</description>
+		<sheet>
+			<description>A creature now only needs a short rest to recover from disease or poison when you use your Hands of a Healer feature .You also gain different effects when using Herbs, check the player's handbook for the effects(P.67)</description>
+		</sheet>	
+	</element>
+	<element name="Healer's Staunching Song" type="Archetype Feature" source="Willem" id="ID_WILLEM_AIME_ARCHETYPE_FEATURE_HEALERS_STAUNCHING_SONG">
+		<supports>Healing Lores</supports>
+		<description>
+			<p>The words of this song and its special tune can help wounds close and help heal injuries. Once you have learned this song, during a short rest you may perform it for a number of companions equal to your Scholar levels. Those benefiting from this song may each recover one of their Hit Dice worth of damage + their Constitution modifier without expending any of their Hit Dice.</p>
+		</description>
+	</element>
+	<element name="Friend to All" type="Archetype Feature" source="Willem" id="ID_WILLEM_AIME_ARCHETYPE_FEATURE_FRIEND_TO_ALL">
+		<supports>Healing Lores</supports>
+		<description>
+			<p>A Master Healer is welcome nearly everywhere, and even bitter foes will hesitate to attack such a person. Your reputation and skill precedes you. You gain advantage on any rolls to convince a person to give you shelter or food for a night. Additionally, if you do not make an attack during combat, intelligent foes that do not serve the Shadow will not attack you. However, you have sworn to use your skills to help all who need your aid, so refusing or neglecting to treat any potential patient counts as a Misdeed for you. Additionally, if you do not have it already, gain proficiency in the Traditions skill.</p>
+		</description>
+		<rules>
+		<grant type="proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
+		</rules>
+	</element>
+	<element name="Softer Underneath" type="Archetype Feature" source="Willem" id="ID_WILLEM_AIME_ARCHETYPE_FEATURE_SOFTER_UNDERNEATH">
+		<supports>Healing Lores</supports>
+		<description>
+			<p>Your studies of the anatomy of various creatures and beings have granted you an intimate knowledge of their weaknesses. If you spend an action studying a target, you gain a Precision die that may be applied to a single attack that hits the creature. This die is a d6 at 3rd level, and increases to a d8 at 6th, a d10 at 12th, and a d12 at 20th level.</p>
+		</description>
+		<rules>
+			<stat name="Precision:dice" value="6" bonus="Softer Underneath"  levl="3"/> 
+			<stat name="Precision:dice" value="8" bonus="Softer Underneath" level="6"/> 
+			<stat name="Precision:dice" value="10" bonus="Softer Underneath" level="12"/> 
+			<stat name="Precision:dice" value="12" bonus="Softer Underneath" level="20"/> 
+		</rules>
+		<sheet action="Action">
+			<description>If you spend an action studying a target, you gain a Precision die that may be applied to a single attack that hits the creature. This is a d{{Precision:dice}}.</description>
+		</sheet>
+	</element>
+	<element name="Relief from Long Burdens" type="Archetype Feature" source="Willem" id="ID_WILLEM_AIME_ARCHETYPE_FEATURE_RELIEF_FROM_LONG_BURDENS">
+		<supports>Healing Lores</supports>
+		<description>
+			<p>You have learned how to heal even the wounds of the heart and mind. If you spend a long rest doing nothing but resting and talking with a willing creature, you may remove a Shadow point from that creature. The number of Shadow points healed increases to two points at 10th level and three points at 20th level. You cannot use this ability on yourself, nor can another Master Healer so assist you.</p>
+		</description>
+		<rules>
+			<stat name="Shadow Point Heal Amount" value="1" bonus="Relief from Long Burdens" level="3"/>
+			<stat name="Shadow Point Heal Amount" value="2" bonus="Relief from Long Burdens" level="10"/>
+			<stat name="Shadow Point Heal Amount" value="3" bonus="Relief from Long Burdens" level="20"/>
+		</rules>	
+		<sheet>
+			<description>If you spend a long rest doing nothing but resting and talking with a willing creature, you may remove {{Shadow Point Heal Amount}} Shadow point from that creature.</description>
+		</sheet>	
+	</element>
+	<element name="The Weapon of the Enemy" type="Archetype Feature" source="Willem" id="ID_WILLEM_AIME_ARCHETYPE_FEATURE_THE_WEAPON_OF_THE_ENEMY">
+		<supports>Healing Lores</supports>
+		<description>
+			<p>You know how to counteract the various poisons Orcs use. You can cure certain terrible wounds inflicted by the evil spells or weapons of the Enemy, such as Morgul-knives or the Black Breath of the Nazgûl. Additionally, if you do not have it already, gain proficiency in the Shadow-lore skill.</p>
+		</description>
+		<rules>
+		<grant type="proficiency" id="ID_WILLEM_AIME_SKILL_PROFICIENCY_SKILL_SHADOW_LORE"/>
+		</rules>
+	</element>	
+</elements>	
