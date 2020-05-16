@@ -8,14 +8,14 @@
 		</update>
 	</info>
 	<files>
-		<file name="class-scholar.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/class-scholar.xml" />
-		<file name="great among the wise.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/great%20among%20the%20wise.xml" />
-		<file name="healing lores.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/healing%20lores.xml" />
-		<file name="items.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/items.xml" />
-		<file name="languages.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/languages.xml" />
-		<file name="race-erebordwarf.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/race-erebordwarf.xml" />
-		<file name="secret lores.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/secret%20lores.xml" />
-		<file name="shadow-weaknesses.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/shadow-weaknesses.xml" />
-		<file name="skills.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/skills.xml" />
+		<file name="class-scholar.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/aime/class-scholar.xml" />
+		<file name="great among the wise.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/aime/great%20among%20the%20wise.xml" />
+		<file name="healing lores.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/aime/healing%20lores.xml" />
+		<file name="items.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/aime/items.xml" />
+		<file name="languages.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/aime/languages.xml" />
+		<file name="race-erebordwarf.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/aime/race-erebordwarf.xml" />
+		<file name="secret lores.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/aime/secret%20lores.xml" />
+		<file name="shadow-weaknesses.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/aime/shadow-weaknesses.xml" />
+		<file name="skills.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/aime/skills.xml" />
 	</files>
 </index>
