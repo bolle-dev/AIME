@@ -4,7 +4,7 @@
 		<name>Healing Lores</name>
 		<description>Healing Lores</description>
 		<update version="0.0.1">
-		<file name="healing lores.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/healing%20lores.xml" />		
+		<file name="healing lores.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/aime/healing%20lores.xml" />		
 		</update>
 	</info>
 	<element name="Healing Herbs" type="Archetype Feature" source="Willem" id="ID_WILLEM_AIME_ARCHETYPE_FEATURE_HEALING_HERBS">
