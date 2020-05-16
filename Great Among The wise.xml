@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Animal Handling" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_GREAT_AMONG_THE_WISE_ANIMAL_HANDLING">
+		<supports>Great Among The Wise</supports>
+		<description>
+			<p>You automatically succeed at all ability checks using Animal Handling.</p>
+		</description>
+	</element>
+	<element name="Arcana" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_GREAT_AMONG_THE_WISE_ARCANA">
+		<supports>Great Among The Wise</supports>
+		<description>
+			<p>You automatically succeed at all ability checks using Arcana.</p>
+		</description>
+	</element>
+	<element name="History" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_GREAT_AMONG_THE_WISE_HISTORY">
+		<description>
+			<p>You automatically succeed at all ability checks using History.</p>
+		</description>
+	</element>
+	<element name="Insight" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_GREAT_AMONG_THE_WISE_INSIGHT">
+		<supports>Great Among The Wise</supports>
+		<description>
+			<p>You automatically succeed at all ability checks using Insight.</p>
+		</description>
+	</element>
+	<element name="Investigation" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_GREAT_AMONG_THE_WISE_INVESTIGATION">
+		<supports>Great Among The Wise</supports>
+		<description>
+			<p>You automatically succeed at all ability checks using Investigation.</p>
+		</description>
+	</element>
+	<element name="Medicine" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_GREAT_AMONG_THE_WISE_MEDICINE">
+		<supports>Great Among The Wise</supports>
+		<description>
+			<p>You automatically succeed at all ability checks using Medicine.</p>
+		</description>
+	</element>
+	<element name="Nature" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_GREAT_AMONG_THE_WISE_NATURE">
+		<supports>Great Among The Wise</supports>
+		<description>
+			<p>You automatically succeed at all ability checks using Nature.</p>
+		</description>
+	</element>
+	<element name="Perception" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_GREAT_AMONG_THE_WISE_PERCEPTION">
+		<supports>Great Among The Wise</supports>
+		<description>
+			<p>You automatically succeed at all ability checks using Perception.</p>
+		</description>
+	</element>
+	<element name="Religion" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_GREAT_AMONG_THE_WISE_RELIGION">
+		<supports>Great Among The Wise</supports>
+		<description>
+			<p>You automatically succeed at all ability checks using Religion.</p>
+		</description>
+	</element>
+	<element name="Survival" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_GREAT_AMONG_THE_WISE_SURVIVAL">
+		<supports>Great Among The Wise</supports>
+		<description>
+			<p>You automatically succeed at all ability checks using Survival.</p>
+		</description>
+	</element>
+	<element name="Shadow-lore" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_GREAT_AMONG_THE_WISE_SHADOW_LORE">
+		<supports>Great Among The Wise</supports>
+		<description>
+			<p>You automatically succeed at all ability checks using Shadow-lore.</p>
+		</description>
+	</element>	
+	<element name="Riddle" type="Class Feature" source="Willem" id="ID_WILLEM_AIME_CLASS_FEATURE_SCHOLAR_GREAT_AMONG_THE_WISE_RIDDLE">
+		<supports>Great Among The Wise</supports>
+		<description>
+			<p>You automatically succeed at all ability checks using Riddle.</p>
+		</description>
+	</element>	
+</elements>	
