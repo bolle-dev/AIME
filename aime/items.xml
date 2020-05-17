@@ -55,7 +55,7 @@
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_HEAVY</supports>
 	</element>
 		<element name="Broadsword" type="Weapon" source="Willem" id="ID_WILLEM_AIME_WEAPON_BROADSWORD">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
 		<description>
 			<p></p>
 		</description>
@@ -69,8 +69,26 @@
 		</setters>
 	</element>
 	<element name="Weapon Proficiency (Broadsword)" type="Proficiency" source="Willem" id="ID_WILLEM_AIME_WEAPON_PROFICIENCY_BROADSWORD">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
 	</element>
+	<element name="Long sword" type="Weapon" source="Willem" id="ID_WILLEM_AIME_WEAPON_LONG_SWORD">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="sp">40</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="slashing">1d8</set>
+			<set name="versatile">1d10</set>
+			<set name="proficiency">ID_WILLEM_AIME_WEAPON_PROFICIENCY_LONG_SWORD</set>
+		</setters>
+	<element name="Weapon Proficiency" type="Proficiency" source="Willem" id="ID_WILLEM_AIME_WEAPON_PROFICIENCY_LONG_SWORD">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
+	</element>		
+	</element>	
 		<element name="Great Spear" type="Weapon" source="Willem" id="ID_WILLEM_AIME_WEAPON_GREAT_SPEAR">
 		<supports>ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_REACH</supports>
 		<description>
@@ -83,6 +101,24 @@
 			<set name="slot">twohand</set>
 			<set name="damage" type="piercing">1d12</set>
 		</setters>
+	</element>
+	<element name="Great Bow" type="Weapon" source="Willem" id="ID_WILLEM_AIME_WEAPON_GREAT_BOW">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_BOWS</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="sp">50</set>
+			<set name="weight" lb="2">3 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="range">150/600</set>
+			<set name="damage" type="piercing">1d8</set>
+			<set name="proficiency">ID_WILLEM_AIME_WEAPON_PROFICIENCY_GREAT_BOW</set>
+		</setters>
+	</element>
+	<element name="Weapon Proficiency (Great Bow)" type="Proficiency" source="Willem" id="ID_WILLEM_AIME_WEAPON_PROFICIENCY_GREAT_BOW">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_BOWS</supports>
 	</element>
 	<element name="Weapon Proficiency (Great Spear)" type="Proficiency" source="Willem" id="ID_WILLEM_AIME_WEAPON_PROFICIENCY_GREAT_SPEAR">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
