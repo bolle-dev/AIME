@@ -18,6 +18,6 @@
 		<file name="shadow-weaknesses.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/aime/shadow-weaknesses.xml" />
 		<file name="skills.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/aime/skills.xml" />
 		<file name="virtues.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/aime/virtues.xml" />
-		<file name="race-bardings" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/aime/race-bardings.xml" />       
+		<file name="race-barding" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/aime/race-barding.xml" />       
 	</files>
 </index>
