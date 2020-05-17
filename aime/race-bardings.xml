@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Barding</name>
+		<description>Barding</description>
+		<update version="0.0.1">
+		<file name="race-barding.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/aime/race-barding.xml" />		
+		</update>
+	</info>
+	<element name="Barding" type="Race" source="Willem" id="ID_WILLEM_AIME_RACE_BARDING">
+		<description>
+			<p>The Men of Dale are Northmen of noble origins. They are often tall and strong-limbed, with fair hair, although dark or even black hair is not unknown. Their men usually shave their beards completely unless they are very old, and cut their hair shorter than the Woodmen of Wilderland. Women let their hair grow very long, but often braid it in tight tresses. Adventurers from Dale can be easily recognised as they carry the best equipment to be found among the Men living in Wilderland.</p>
+			<h4>Standard Of Living</h4>
+			<p>Thanks to their trade with Elves, Dwarves and far lands to the south, a Barding can choose any trade and be almost sure to thrive. Craftsmen from Dale include carpenters, cartwrights, shoemakers, tailors, tanners and weavers, not to mention those apprenticed to Dwarven weaponsmiths and masons. For these reasons, Bardings are considered a Prosperous folk.</p>
+			<h4>Bonus equipment</h4>
+			<p>A fur-lined travelling cloak, travelling gear for the current season, a bedroll, a backpack or saddlebags, comfortable boots, 5d6 silver pennies, plus choose any two: a tent, extra blankets, rope, a magical toy, a silver comb, an amulet of a raven’s feather, a bottle of wine from Dorwinion</p>
+			<h4>BARDING NAMES</h4>
+			<p>A traditional Barding name is usually composed of one or two elements (for example, Dag, Day, or Lif-stan, Life Stone). Like most Northmen, Bardings often name their sons and daughters after a renowned ancestor or relative, or choose a name beginning with the same sound or sharing one element with that of the father (whose name is often given with their first name when introduced formally – for example, Lifstan son of Leiknir, or Ingrith daughter of Ingolf ).</p>
+			<p><strong>Male Names:</strong>Aegir, Agmund, Agnarr, Alfrim, Alfwald, Arn, Arnulf, Bain, Balki, Bard, Bern, Bragi, Brand, Brandulf, Dag, Domarr, Drengi, Egil, Einar, Eirik, Erland, Erling, Farald, Farmann, Farulf, Fastarr, Finn, Finnulf, Folki, Folkmarr, Galmann, Galti, Gautarr, Geirmund, Gismund, Gorm, Grimarr, Guthorm, Hafgrim, Haki, Hakon, Halfdan, Hamarr, Hedinn, Helgi, Hergrim, Hildir, Holgeir, Holti, Holvidur, Hord, Ingi, Ingolf, Ioli, Isolf, Jarl, Jarmarr, Joalf, Joar, Jofur, Jokell, Karl, Ketill, Ketilmund, Kol, Kolbeinn, Kori, Leiknir, Lifstan, Lodin, Lomund, Magni, Mord, Munan, Nari, Nefstan, Nerulf, Odd, Oddmarr, Odvarr, Olaf, Olvard, Omund, Ornolf, Ottarr, Ragnarr, Randur, Reinald, Runolf, Sandarr, Saxulf, Sigdan, Sigfast, Sigmarr, Sigvald, Sigward, Sigmund, Skarf, Skefill, Smidur, Steinarr, Thorald, Thorfast, Torwald, Ulfarr, Ulfied, Unnarr, Valbrand, Valdimarr, Vali, Vandil, Varinn, Varr.<br/>
+			<strong>Female Names:</strong>Aldis, Aldrif, Asfrid, Asny, Astrith, Bera, Bergdis, Brinhild, Dagmar, Dagny, Dalla, Edda, Eilif, Erna, Eydis, Estrild, Frida, Geira, Gerda, Grimhild, Gudrun, Gundrid, Gunnhild, Halla, Halldis, Halldora, Helga, Hild, Holma, Inga, Ingirun, Ingrith, Lif, Linhild, Kelda, Ragna, Runa, Saldis, Sigga, Signy, Sigrid, Sigrun, Solveig, Thora, Thordis, Thorhild, Thorleif, Ulfhild, Ulfrun, Una, Valdis, Vigdis, Walda.</p>
+			<h4>BARDING TRAITS</h4>
+			<p>Your Player-hero has certain traits deriving from your Barding ancestry</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 1 and you may increase two additional ability scores by 1.</p>
+			<p class="indent"><strong><em>Adventuring Age.</em></strong> <b>16-30.</b> Bardings don’t usually become adventurers before their 16th year of age, and rarely continue beyond their forties, when they retire to serve their family and folk.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Most Bardings stand between 5 and 6 feet tall. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet</p>
+			<p class="indent"><strong><em>Clear Eyed.</em></strong> You have proficiency in the Insight skill.</p>
+			<p class="indent"><strong><em>Starting Virtue</em></strong> You gain one Barding Cultural Virtue of your choice.</p>
+			<p class="indent"><strong><em>languages</em></strong> You can speak, read, and write Dalish – an archaic version of the Common Speech.</p>
+		</description>
+		<setters>
+			<set name="names" type="male">Aegir, Agmund, Agnarr, Alfrim, Alfwald, Arn, Arnulf, Bain, Balki, Bard, Bern, Bragi, Brand, Brandulf, Dag, Domarr, Drengi, Egil, Einar, Eirik, Erland, Erling, Farald, Farmann, Farulf, Fastarr, Finn, Finnulf, Folki, Folkmarr, Galmann, Galti, Gautarr, Geirmund, Gismund, Gorm, Grimarr, Guthorm, Hafgrim, Haki, Hakon, Halfdan, Hamarr, Hedinn, Helgi, Hergrim, Hildir, Holgeir, Holti, Holvidur, Hord, Ingi, Ingolf, Ioli, Isolf, Jarl, Jarmarr, Joalf, Joar, Jofur, Jokell, Karl, Ketill, Ketilmund, Kol, Kolbeinn, Kori, Leiknir, Lifstan, Lodin, Lomund, Magni, Mord, Munan, Nari, Nefstan, Nerulf, Odd, Oddmarr, Odvarr, Olaf, Olvard, Omund, Ornolf, Ottarr, Ragnarr, Randur, Reinald, Runolf, Sandarr, Saxulf, Sigdan, Sigfast, Sigmarr, Sigvald, Sigward, Sigmund, Skarf, Skefill, Smidur, Steinarr, Thorald, Thorfast, Torwald, Ulfarr, Ulfied, Unnarr, Valbrand, Valdimarr, Vali, Vandil, Varinn, Varr.</set>
+			<set name="names" type="female">Aldis, Aldrif, Asfrid, Asny, Astrith, Bera, Bergdis, Brinhild, Dagmar, Dagny, Dalla, Edda, Eilif, Erna, Eydis, Estrild, Frida, Geira, Gerda, Grimhild, Gudrun, Gundrid, Gunnhild, Halla, Halldis, Halldora, Helga, Hild, Holma, Inga, Ingirun, Ingrith, Lif, Linhild, Kelda, Ragna, Runa, Saldis, Sigga, Signy, Sigrid, Sigrun, Solveig, Thora, Thordis, Thorhild, Thorleif, Ulfhild, Ulfrun, Una, Valdis, Vigdis, Walda.</set>
+			<set name="names-format">{{name}}</set>
+			<set name="height" modifier="1d10">5'0"</set>
+			<set name="weight" modifier="2d4"> 110 lb.</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="2" />
+			<select type="Ability Score Improvement" name="Ability Score Increase, Barding" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_WILLEM_AIME_LANGUAGE_WESTRON" />
+			<grant type="Language" id="ID_WILLEM_AIME_LANGUAGE_DALISH" />
+			<grant type="Racial Trait" id="ID_WILLEM_AIME_RACIAL_TRAIT_BARDING_CLEAR_EYED" />
+			<grant type="Racial Trait" id="ID_WILLEM_AIME_RACIAL_TRAIT_BARDING_STARTING_VIRTUE" />
+		</rules>
+	</element>	
+	<element name="Clear Eyed" type="Racial Trait" source="Willem" id="ID_WILLEM_AIME_RACIAL_TRAIT_BARDING_CLEAR_EYED">
+		<description>
+			<p>You have proficiency in the Insight skill.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Profciency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+		</rules>	
+	</element>
+	<element name="Starting Virtue" type="Racial Trait" source="Willem" id="ID_WILLEM_AIME_RACIAL_TRAIT_BARDING_STARTING_VIRTUE">
+		<description>
+			<p>You gain one Barding Cultural Virtue of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+	      <select type="Feat" name="Feat (Barding)" supports="virtues" />
+		</rules>	
+	</element>
+</elements>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Virtues</name>
+		<description>Virtues</description>
+		<update version="0.0.1">
+		<file name="virtues.xml" url="https://raw.githubusercontent.com/bolle-dev/AIME/master/aime/virtues.xml" />		
+		</update>
+	</info>
+	<!-- Barding Virtues -->
+	<element name="Birthright" type="Feat" source="Willem" id="ID_WILLEM_AIME_FEAT_BIRTHRIGHT">
+		<supports>virtues</supports>
+		<requirements>ID_WILLEM_AIME_RACE_BARDING</requirements>
+		<prerequisite>Barding</prerequisite>
+		<description>
+			<p><em>Prerequisite: Barding</em></p>
+			<p>Before the coming of the Dragon, there were noble houses in Dale, with famed lords who were bold and famously hard to kill. You are a direct descendant of one of the ancient illustrious households that were powerful in the city of Dale of old. You receive a +1 bonus on all Dexterity saving throws. If you are reduced to 0 hit points, but not killed outright, you are considered to have already successfully passed 1 death saving throw.</p>
+		</description>
+		<sheet>
+			<description>You receive a +1 bonus on all Dexterity saving throws. If you are reduced to 0 hit points, but not killed outright, you are considered to have already successfully passed 1 death saving throw.</description>
+		</sheet>
+	</element>
+	<element name="Fierce Shot" type="Feat" source="Willem" id="ID_WILLEM_AIME_FEAT_FIERCE_SHOT">
+		<supports>virtues</supports>	
+		<requirements>ID_WILLEM_AIME_RACE_BARDING</requirements>
+		<prerequisite>Barding</prerequisite>
+		<description>
+			<p><em>Prerequisite: Barding</em></p>
+			<p>You have learnt to bend your bow so fiercely that you hear its string crack like a whip when it sends its arrows flying. When you use a great bow, your damage is increased by both your Dexterity modifier and half your Strength modifier, rounded down.</p>
+		</description>
+		<rules>
+			<stat name="Fierce Shot" value="strength:modifier:half"/>
+			<stat name="Fierce Shot" value="dexterity:modifier"/>
+		</rules>
+		<sheet>
+			<description>When you use a great bow, your damage is increased by {{Fierce Shot}} instead of your Dexterity modifier</description>
+		</sheet>
+	</element>	
+	<element name="King's Men" type="Feat" source="Willem" id="ID_WILLEM_AIME_FEAT_KINGS_MEN">
+		<supports>virtues</supports>	
+		<requirements>ID_WILLEM_AIME_RACE_BARDING</requirements>
+		<prerequisite>Barding</prerequisite>
+		<description>
+			<p><em>Prerequisite: Barding</em></p>
+			<p>The former glory of the proud hosts of Dale has been restored by King Bard, and so the martial discipline that once made the city powerful is again imparted to all young men and women alike, lest the city be caught unprepared by assailants. You have sworn to protect the city and its king with your life, and in return you are regularly trained by the most expert swordsmen and bowmen of the realm. Choose two weapons from the following list: broadswords, long swords, spears, and great bows. You gain proficiency in your two chosen weapons and a +1 bonus to attack rolls made with them.</p>
+		</description>
+		<sheet>
+			<description></description>
+		</sheet>
+		<rules>
+			<select type="Feat Feature" name="King's Men" supports="Kings men" number="2"/>
+		</rules>	
+	</element>
+	<element name="Broadsword" type="Feat Feature" source="Willem" id="ID_WILLEM_AIME_FEAT_KINGS_MEN_BROADSWORD">
+		<supports>Kings men</supports>
+		<description>You gain proficiency with broadswords and a +1 on attack rolls with them.</description>
+		<rules>
+			<grant type="Proficiency" id="ID_WILLEM_AIME_WEAPON_PROFICIENCY_BROADSWORD"/>
+		</rules>
+	</element>
+	<element name="Long sword" type="Feat Feature" source="Willem" id="ID_WILLEM_AIME_FEAT_KINGS_MEN_LONG_SWORD">
+		<supports>Kings men</supports>
+		<description>You gain proficiency with broadswords and a +1 on attack rolls with them.</description>
+		<rules>
+			<grant type="Proficiency" id="ID_WILLEM_AIME_WEAPON_PROFICIENCY_LONG_SWORD"/>
+		</rules>
+	</element>	
+	<element name="Spears" type="Feat Feature" source="Willem" id="ID_WILLEM_AIME_FEAT_KINGS_MEN_SPEAR">
+		<supports>Kings men</supports>
+		<description>You gain proficiency with spears and a +1 on attack rolls with them.</description>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR"/>
+		</rules>
+	</element>
+	<element name="Great Bows" type="Feat Feature" source="Willem" id="ID_WILLEM_AIME_FEAT_KINGS_MEN_GREAT_BOW">
+		<supports>Kings men</supports>
+		<description>You gain proficiency with great bows and a +1 on attack rolls with them.</description>
+		<rules>
+			<grant type="Proficiency" id="ID_WILLEM_AIME_WEAPON_PROFICIENCY_GREAT_BOW"/>
+		</rules>
+	</element>
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<element name="Swordmaster" type="Feat" source="Willem" id="ID_WILLEM_AIME_FEAT_SWORDMASTER">
+		<supports>virtues</supports>	
+		<requirements>ID_WILLEM_AIME_RACE_BARDING</requirements>
+		<prerequisite>Barding</prerequisite>
+		<description>
+			<p><em>Prerequisite: Barding</em></p>
+			<p>A skilled warrior can use their sword to deflect blows that would have otherwise hit their mark. You have learnt to fight defensively using your weapon to full advantage.</p>
+			<p>When fighting with either a broadsword or a long sword, you gain a +1 bonus to your AC.</p>
+		</description>
+		<sheet>
+			<description>When fighting with either a broadsword or a long sword, you gain a +1 bonus to your AC.</description>
+		</sheet>
+		<rules>
+		<stat name="ac:misc" value="1" equipped="[primary:broadsword]" />
+		<stat name="ac:misc" value="1" equipped="[primary:long sword]" />
+		</rules>
+	</element>	
+	<element name="Woeful Foresight" type="Feat" source="Willem" id="ID_WILLEM_AIME_FEAT_WOEFUL_FORESIGHT">
+		<supports>virtues</supports>	
+		<requirements>ID_WILLEM_AIME_RACE_BARDING</requirements>
+		<prerequisite>Barding</prerequisite>
+		<description>
+			<p><em>Prerequisite: Barding</em></p>
+			<p>Many citizens of ancient Dale found themselves blessed – or cursed – by a sort of foresight following Smaug’s destruction of the city. As a descendant of one of these bloodlines, you share this gift.</p>
+			<p>Sometimes, you feel a sense of foreboding that warns you of impending catastrophe and other gloomy events. But the future is always uncertain, and sometimes what you foresee never materialises.</p>
+			<p>Raise your Wisdom score by 1 point. Additionally, once every Adventuring phase, you may invoke your power of Woeful Foresight. When this happens, the Loremaster should give you a relevant piece of information regarding adverse events likely to occur during your current adventure.</p>
+			<p>If no such information is available – or the Loremaster prefers not to divulge it – once, before the current Adventuring phase is over, you may choose to automatically succeed at either an attack roll, a saving throw or an ability check (your foresight led to a sudden bout of insight or deeper understanding that helped you at a key moment).</p>
+			<p>Your foresight manifests in many forms: it can be a hazy vision, a recurring and enigmatic dream, or a cryptic message borne by a talking bird.</p>
+		</description>
+		<sheet>
+			<description></description>
+		</sheet>
+		<rules>
+			<stat name="wisdom" value="1" />
+		</rules>
+	</element>		
+</elements>	
